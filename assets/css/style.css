@@ -8,3 +8,19 @@
 .img-modal{
 	width: 70%
 }
+
+/* CONTACTO */
+
+.contacto{
+	background-image: url(../img/fondo-contacto-01.png);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cabecera-seccion{
+	font-size: 36px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 120px;
+}
