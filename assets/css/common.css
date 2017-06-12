@@ -55,6 +55,10 @@ footer{
 	display:flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height:100px;
 	align-items: center;
+	width:200px;
+	padding: 0 30px 20px 30px;
+}
+.method a img{
+	margin-bottom:5px;
 }
