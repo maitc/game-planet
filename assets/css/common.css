@@ -13,12 +13,12 @@ footer : #042B38;
 /*FOOTER*/
 footer{
 	background: #042B38;
-	padding:30px 100px;
+	padding:30px 90px;
 	color:white;
 }
 .section-footer h3{
 	font-weight: bolder;
-	padding-bottom: 15px;
+	padding-bottom: 25px;
 }
 .section-footer p{
 	font-size:15px;
@@ -33,7 +33,7 @@ footer{
 	color: #2B7C78;
 }
 .redes ul{
-	padding:15px 166px 0 6px;
+	padding:15px 168px 0 5px;
 	display:flex;
 	justify-content: space-between;
 }
@@ -46,4 +46,6 @@ footer{
 }
 .redes ul li a:hover{
 	background:  #2B7C78;
+	box-shadow:0px 5px 12px 5px grey;
+
 }
