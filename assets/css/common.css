@@ -18,7 +18,7 @@ footer{
 }
 .section-footer h3{
 	font-weight: bolder;
-	padding-bottom: 25px;
+	padding-bottom: 20px;
 }
 .section-footer p{
 	font-size:15px;
@@ -31,6 +31,8 @@ footer{
 .text-footer a:hover{
 	font-weight: bold;
 	color: #2B7C78;
+}
+.redes{
 }
 .redes ul{
 	padding:15px 168px 0 5px;
@@ -48,4 +50,11 @@ footer{
 	background:  #2B7C78;
 	box-shadow:0px 5px 12px 5px grey;
 
+}
+.method {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height:100px;
+	align-items: center;
 }
