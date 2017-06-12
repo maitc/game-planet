@@ -1,3 +1,34 @@
 .carousel{
 	width: 100%;
 }
+
+.navbar{
+	background-color: #042B38;
+	width: 100%;
+}
+
+.navbar-inverse{
+    background-color: #042B38;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand {
+    color: #C8E3BB;
+}
+
+.navbar-brand{
+	width: 30%;
+
+}
+
+.icon-cog{
+	  color: #C8E3BB;
+	  width: 15px;
+	  height: 15px;
+
+}
+
+ul li:hover{
+	background-color: #E97218;
+}
