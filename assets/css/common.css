@@ -10,3 +10,13 @@ footer : #042B38;
 .alineacion{
 	padding: 10px 10px;
 }
+/*FOOTER*/
+footer{
+	background: #042B38;
+	padding:30px 100px;
+	color:white;
+}
+.section-footer h3{
+	font-weight: bolder;
+	padding-bottom: 15px;
+}
