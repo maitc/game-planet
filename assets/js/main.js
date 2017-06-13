@@ -1,12 +1,13 @@
-function aa(){
+function validacion(){
+	//se llaman ids de inputs
 	var nomb = document.getElementById("usr").value;
 	var tele = document.getElementById("tel").value;
 	var corr = document.getElementById("email").value;
 	var sele = document.getElementById("sel1").value;
 	var comen = document.getElementById("comment").value;
 
+	//function valida nombre
 	function nombre(){
-		var filter6 = /^[A-Za-z]+$/;
 		if(nomb === ""){
 			var contenedor = document.getElementsByClassName("input-box")[0];
 			var span = document.createElement("span");
@@ -24,6 +25,7 @@ function aa(){
 		}
 	}
 	nombre();
+	//valida celular
 	function celular(){
 		if(tele === ""){
 			var contenedor = document.getElementsByClassName("input-box")[1];
@@ -42,6 +44,7 @@ function aa(){
 		}
 	}
 	celular();
+	//valida correo
 	function correo(){ 
 		if(corr === ""){
 			var contenedor = document.getElementsByClassName("input-box")[2];
@@ -60,6 +63,7 @@ function aa(){
 		}
 	}
 	correo();
+	//valida select
 	function select(){
 		var sel22 = document.getElementById("uno").value;
 		var sel23 = document.getElementById("dos").value;
@@ -78,11 +82,10 @@ function aa(){
 			p.appendChild(text);
 			contenedor.appendChild(p);
 			return false;
-		}else if(sel23){
-			alert("klsdf");
 		}
 	}
 	select();
+	//valida comentario
 	function comentario(){
 		if(comen === ""){
 			var contenedor = document.getElementsByClassName("input-box")[4];

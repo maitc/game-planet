@@ -1,73 +1,19 @@
-.carousel{
-	width: 100%;
-}
-.img-product{
-	width: 50%;
-}
-.img-modal{
-	width: 70%
-}
-
-/* CONTACTO */
-
-.contacto{
-	background-image: url(../img/fondo-contacto-01.png);
-	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.text-center h2{
-    padding-top: 53px;
-    color: white;
-    font-weight: 700;
-    font-size: 46px;
-}
-.formulario{
-	margin-top: -20px;
-	margin-bottom: 61px;
-}
-
-.inputs{
-    margin-top: 130px;
-}
-.botoncito{
-	    margin-bottom: 225px;
-}
-/**validacion**/
-.input-box {
-  position: relative;
-}
-.input-box span{
-  display: block;
-  background-color: rgba(51,51,51,0.8);
-  padding: 5px;
-  position: absolute;
-  left: 105%;
-  top: 25px;
-  width: 200px;
-  color: white;
-}
-
-/*navbar*/
+/*************navbar*************/
 .navbar{
 	background-color: #042B38;
 	width: 100%;
 	text-transform: uppercase;
 }
-
 .navbar-inverse{
     background-color: #042B38;
     border: none;
 }
-
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-brand {
     color: #C8E3BB;
 }
-
 .navbar-brand{
 	width: 30%;
-
 }
 .icon-cog{
 	  color: #C8E3BB;
@@ -75,14 +21,12 @@
 	  height: 15px;
 	  padding-top: 8px;
 }
-
 /*.position-icon{
 padding-top: : 8px;
 }*/
 .navbar-collapse ul{
 	padding-top: 10px;
 }
-
 ul li:hover{
 	background-color: #E97218;
 }
@@ -106,7 +50,70 @@ ul li:hover{
 }
 /*fin navbar*/
 
+/********CARRUSEL***********/
+.carousel{
+  width: 100%;
+}
 
+/*********CATALOGO*********/
+.catalogo{
+  background: linear-gradient(#2B7C78, #338E8A);
+}
+.img-product{
+  width: 50%;
+}
+.img-modal{
+  width: 70%
+}
+
+/*****************CONTACTO*********************/
+.contacto{
+	background-image: url(../img/fondo-contacto-01.png);
+	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text-center h2{
+    padding-top: 53px;
+    color: white;
+
+    font-weight: 600;
+    margin-bottom: 120px;
+}
+
+.formulario{
+	margin-top: -20px;
+	margin-bottom: 61px;
+}
+
+.inputs{
+    margin-top: 130px;
+}
+.botoncito{
+  margin-bottom: 225px;
+  background-color: #042B38;
+}
+.btns{
+  background-color: #F1710A;
+  border-color: #F1710A;
+}
+.botoncito:hover, .btns:hover{
+  background-color: #389591;
+}
+/**validacion**/
+.input-box {
+  position: relative;
+}
+.input-box span{
+  display: block;
+  background-color: rgba(51,51,51,0.8);
+  padding: 5px;
+  position: absolute;
+  left: 105%;
+  top: 25px;
+  width: 200px;
+  color: white;
+}
 .input-box span:after {
   content: "";
   width: 0;
@@ -126,42 +133,14 @@ ul li:hover{
   border: 2px solid rgba(51,51,51,0.8);
 }
 .img-product{
-	width: 50%;
+  width: 50%;
 }
 .img-modal{
-	width: 70%
+  width: 70%
 }
 
-/* CONTACTO */
 
-.contacto{
-	background-image: url(../img/fondo-contacto-01.png);
-	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.text-center h2{
-    padding-top: 53px;
-    color: white;
-
-    font-weight: 600;
-    margin-bottom: 120px;
-}
-
-.formulario{
-	margin-top: -20px;
-	margin-bottom: 61px;
-}
-
-.inputs{
-    margin-top: 130px;
-}
-.botoncito{
-	    margin-bottom: 225px;
-
-}
-
-/*FOOTER*/
+/***********FOOTER***********/
 
 .fondo-footer{
 	background-image: url(../img/footer-fondo-01.png);
@@ -169,8 +148,6 @@ ul li:hover{
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
 .container-footer{
 	margin-top: 76px;
 }

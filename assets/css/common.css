@@ -1,13 +1,8 @@
-/* 
-navbar : #042B38;
-botones : #2B7C78;
-footer : #042B38;
-*/
 *{
 	font-family: 'Roboto', sans-serif;
 }
 
-/**Cajas productos**/
+/**CATALOGO -Cajas productos-**/
 .ajuste-foto-uno{
 	padding: 10px 10px;
 	padding-top: 0px;
@@ -25,7 +20,8 @@ footer : #042B38;
 .ajuste-foto-tres button{
 	margin-bottom: 15px;
 }
-/*FOOTER*/
+
+/***********FOOTER**********/
 footer{
 	background: #042B38;
 	padding:30px 80px 0 110px;
