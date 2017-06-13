@@ -35,6 +35,7 @@ ul li:hover{
   background: #14262C;
   color:white;
   text-align: center;
+  font-size:60px;
 }
 .control-label{
   font-weight:normal;
