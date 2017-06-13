@@ -49,15 +49,20 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.cabecera-seccion{
-    font-size: 36px;
+.text-center h2{
+    padding-top: 53px;
     color: white;
-    font-weight: 600;
-    margin-bottom: 170px;
-    margin-top: 31px;
+    font-weight: 700;
+    font-size: 46px;
 }
-
 .formulario{
 	margin-top: -20px;
+	margin-bottom: 61px;
+}
+
+.inputs{
+    margin-top: 130px;
+}
+.botoncito{
+	    margin-bottom: 225px;
 }
