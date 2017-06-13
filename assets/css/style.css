@@ -86,6 +86,13 @@ padding-top: : 8px;
 ul li:hover{
 	background-color: #E97218;
 }
+/*modal QUIENES SOMOS*/
+.modal-header{
+  background: #14262C;
+  color:white;
+  text-align: center;
+}
+
 /*fin navbar*/
 
 
