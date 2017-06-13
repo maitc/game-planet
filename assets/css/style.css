@@ -92,7 +92,18 @@ ul li:hover{
   color:white;
   text-align: center;
 }
-
+.control-label{
+  font-weight:normal;
+}
+.close{
+  color:white;
+}
+.close:hover{
+  color:white;
+}
+.control-label p strong{
+  color: #14262C;
+}
 /*fin navbar*/
 
 
