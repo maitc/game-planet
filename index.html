@@ -160,33 +160,35 @@
 				<div class="row">
 					<div class="col-lg-3 col-md-4"></div>
 					<div class="col-lg-6 offset-md-3">
-						<div class="form-group">
+						<div class="form-group input-box">
 							<label for="name">Nombre:</label>
 							<input type="text" class="form-control" id="usr">
 						</div>
-						<div class="form-group">
+						<div class="form-group input-box">
 							<label for="tel">Teléfono</label>
 							<input type="text" class="form-control" id="tel">
 						</div>
-						<div class="form-group">
+						<div class="form-group input-box">
 							<label for="correo">Correo</label>
 							<input type="email" class="form-control" id="email">
 						</div>
-						<div class="form-group">
+						<div class="form-group input-box">
 							<label for="sel1">Selecciona asunto:</label>
 							<select class="form-control" id="sel1">
-								<option class="option-select">Servicio Técnico</option>
-								<option class="option-select">Trabaja con nosotros</option>
+								<option class="option-select" value="0">Selecciona</option>
+								<option class="option-select" id="uno">Servicio Técnico</option>
+								<option class="option-select" id="dos">Trabaja con nosotros</option>
 								<option class="option-select">Reciclaje de consola</option>
 								<option class="option-select">Escribenos</option>
 							</select>
 						</div>
-						<div class="form-group">
+						<div class="form-group input-box">
 							<label for="comment">Commentario:</label>
 							<textarea class="form-control" rows="5" id="comment"></textarea>
 						</div>
+						<button class="btn btn-lg btn-primary btn-block submit-btn" type="submit" onclick="aa()">Registrar</button>
+						<div id="resp"></div>
 					</div>
-					<div class="col-lg-3 col-md-4"></div>
 				</div>
 			</div>
 		</section>
