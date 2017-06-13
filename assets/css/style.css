@@ -50,6 +50,7 @@ ul li:hover{
   color: #14262C;
 }
 .contenedor-modal{
+  padding: 10px 10px 0 10px;
   display:flex;
   flex-direction: row;
   justify-content: space-around;
@@ -58,7 +59,19 @@ ul li:hover{
   width:100px;
   height:100px;
   align-content: center;
+  border-radius: 50px;
 }
+.element p{
+  align-content: center;
+  padding: 10px 0;
+  font-weight:bolder;
+}
+.tienda img{
+  padding-left:5px;
+  padding-right:0;
+  border-radius:50px;
+}
+
 
 /*fin navbar*/
 
