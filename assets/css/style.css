@@ -27,7 +27,7 @@ padding-top: : 8px;
 .navbar-collapse ul{
 	padding-top: 10px;
 }
-ul li:hover{
+.navbar ul li:hover{
 	background-color: #E97218;
 }
 /*modal QUIENES SOMOS*/
