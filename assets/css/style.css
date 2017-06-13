@@ -1,82 +1,19 @@
-.carousel{
-	width: 100%;
-}
-
-
-/* CATALOGO */
-
-.catalogo{
-	background-color: #2B7C78;
-}
-
-.img-product{
-	width: 50%;
-}
-.img-modal{
-	width: 70%
-}
-
-/* CONTACTO */
-
-.contacto{
-	background-image: url(../img/fondo-contacto-01.png);
-	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.text-center h2{
-    padding-top: 53px;
-    color: white;
-    font-weight: 700;
-    font-size: 46px;
-}
-.formulario{
-	margin-top: -20px;
-	margin-bottom: 61px;
-}
-
-.inputs{
-    margin-top: 130px;
-}
-.botoncito{
-	    margin-bottom: 225px;
-}
-
-/**validacion**/
-.input-box {
-  position: relative;
-}
-.input-box span{
-  display: block;
-  background-color: rgba(51,51,51,0.8);
-  padding: 5px;
-  position: absolute;
-  left: 105%;
-  top: 25px;
-  width: 200px;
-  color: white;
-}
-
-/*navbar*/
+/*************navbar*************/
 .navbar{
 	background-color: #042B38;
 	width: 100%;
 	text-transform: uppercase;
 }
-
 .navbar-inverse{
     background-color: #042B38;
     border: none;
 }
-
 .navbar-inverse .navbar-nav>li>a,
 .navbar-inverse .navbar-brand {
     color: #C8E3BB;
 }
-
 .navbar-brand{
 	width: 30%;
-
 }
 .icon-cog{
 	  color: #C8E3BB;
@@ -84,51 +21,39 @@
 	  height: 15px;
 	  padding-top: 8px;
 }
-
 /*.position-icon{
 padding-top: : 8px;
 }*/
 .navbar-collapse ul{
 	padding-top: 10px;
 }
-
 ul li:hover{
 	background-color: #E97218;
 }
 /*fin navbar*/
 
-
-.input-box span:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-right: 10px solid rgba(51,51,51,0.8);
-  border-bottom: 5px solid transparent;
-  position: absolute;
-  right: 100%;
-  top: 10px;
+/********CARRUSEL***********/
+.carousel{
+  width: 100%;
 }
-#resp #respuesta{
-  margin-top: 10px;
-  text-align: center;
-  color: whitesmoke;
-  background-color: rgba(51,51,51,0.8);
-  border: 2px solid rgba(51,51,51,0.8);
+
+/*********CATALOGO*********/
+.catalogo{
+  background: linear-gradient(#2B7C78, #338E8A);
 }
 .img-product{
-	width: 50%;
+  width: 50%;
 }
 .img-modal{
-	width: 70%
+  width: 70%
 }
 
-/* CONTACTO */
+/*****************CONTACTO*********************/
 .contacto{
 	background-image: url(../img/fondo-contacto-01.png);
 	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .text-center h2{
     padding-top: 53px;
@@ -157,8 +82,47 @@ ul li:hover{
 .botoncito:hover, .btns:hover{
   background-color: #389591;
 }
+/**validacion**/
+.input-box {
+  position: relative;
+}
+.input-box span{
+  display: block;
+  background-color: rgba(51,51,51,0.8);
+  padding: 5px;
+  position: absolute;
+  left: 105%;
+  top: 25px;
+  width: 200px;
+  color: white;
+}
+.input-box span:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid rgba(51,51,51,0.8);
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  right: 100%;
+  top: 10px;
+}
+#resp #respuesta{
+  margin-top: 10px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgba(51,51,51,0.8);
+  border: 2px solid rgba(51,51,51,0.8);
+}
+.img-product{
+  width: 50%;
+}
+.img-modal{
+  width: 70%
+}
 
-/*FOOTER*/
+
+/***********FOOTER***********/
 
 .fondo-footer{
 	background-image: url(../img/footer-fondo-01.png);
