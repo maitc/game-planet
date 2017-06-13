@@ -1,6 +1,13 @@
 .carousel{
 	width: 100%;
 }
+
+/* CATALOGO */
+
+.catalogo{
+	background-color: #2B7C78;
+}
+
 /**validacion**/
 .input-box {
   position: relative;
