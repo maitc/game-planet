@@ -49,6 +49,17 @@ ul li:hover{
 .control-label p strong{
   color: #14262C;
 }
+.contenedor-modal{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.element img{
+  width:100px;
+  height:100px;
+  align-content: center;
+}
+
 /*fin navbar*/
 
 /********CARRUSEL***********/
