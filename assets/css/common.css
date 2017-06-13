@@ -7,8 +7,23 @@ footer : #042B38;
 	font-family: 'Roboto', sans-serif;
 }
 
-.alineacion{
+/**Cajas productos**/
+.ajuste-foto-uno{
 	padding: 10px 10px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+}
+.ajuste-foto-tres img, .ajuste-foto-dos img{
+	padding-bottom: 7px;
+}
+.ajuste-foto-uno h3, .ajuste-foto-uno h5, .ajuste-foto-uno p, .ajuste-foto-dos h3, .ajuste-foto-dos h5, .ajuste-foto-dos p, .ajuste-foto-tres h3, .ajuste-foto-tres h5, .ajuste-foto-tres p{
+	padding-left: 55px;
+}
+.ajuste-foto-uno button, .ajuste-foto-dos button, .ajuste-foto-tres button{
+	margin-left: 55px;
+}
+.ajuste-foto-tres button{
+	margin-bottom: 15px;
 }
 /*FOOTER*/
 footer{
