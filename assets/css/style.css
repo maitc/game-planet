@@ -19,8 +19,13 @@
 }
 
 .cabecera-seccion{
-	font-size: 36px;
+    font-size: 36px;
     color: white;
     font-weight: 600;
-    margin-bottom: 120px;
+    margin-bottom: 170px;
+    margin-top: 31px;
+}
+
+.formulario{
+	margin-top: -20px;
 }
