@@ -139,8 +139,15 @@ ul li:hover{
     margin-top: 130px;
 }
 .botoncito{
-	    margin-bottom: 225px;
-
+  margin-bottom: 225px;
+  background-color: #042B38;
+}
+.btns{
+  background-color: #F1710A;
+  border-color: #F1710A;
+}
+.botoncito:hover, .btns:hover{
+  background-color: #389591;
 }
 
 /*FOOTER*/
