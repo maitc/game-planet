@@ -48,6 +48,47 @@
   color: white;
 }
 
+/*navbar*/
+.navbar{
+	background-color: #042B38;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.navbar-inverse{
+    background-color: #042B38;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand {
+    color: #C8E3BB;
+}
+
+.navbar-brand{
+	width: 30%;
+
+}
+.icon-cog{
+	  color: #C8E3BB;
+	  width: 15px;
+	  height: 15px;
+	  padding-top: 8px;
+}
+
+/*.position-icon{
+padding-top: : 8px;
+}*/
+.navbar-collapse ul{
+	padding-top: 10px;
+}
+
+ul li:hover{
+	background-color: #E97218;
+}
+/*fin navbar*/
+
+
 .input-box span:after {
   content: "";
   width: 0;
@@ -65,4 +106,53 @@
   color: whitesmoke;
   background-color: rgba(51,51,51,0.8);
   border: 2px solid rgba(51,51,51,0.8);
+}
+.img-product{
+	width: 50%;
+}
+.img-modal{
+	width: 70%
+}
+
+/* CONTACTO */
+
+.contacto{
+	background-image: url(../img/fondo-contacto-01.png);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-center h2{
+    padding-top: 53px;
+    color: white;
+
+    font-weight: 600;
+    margin-bottom: 120px;
+}
+
+.formulario{
+	margin-top: -20px;
+	margin-bottom: 61px;
+}
+
+.inputs{
+    margin-top: 130px;
+}
+.botoncito{
+	    margin-bottom: 225px;
+
+}
+
+/*FOOTER*/
+
+.fondo-footer{
+	background-image: url(../img/footer-fondo-01.png);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container-footer{
+	margin-top: 76px;
 }
