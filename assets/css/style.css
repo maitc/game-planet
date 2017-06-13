@@ -66,3 +66,17 @@
 .botoncito{
 	    margin-bottom: 225px;
 }
+
+/*FOOTER*/
+
+.fondo-footer{
+	background-image: url(../img/footer-fondo-01.png);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container-footer{
+	margin-top: 76px;
+}
