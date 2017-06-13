@@ -1,3 +1,8 @@
+body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
 /*************navbar*************/
 .navbar{
 	background-color: #042B38;
@@ -78,6 +83,7 @@ padding-top: : 8px;
 /********CARRUSEL***********/
 .carousel{
   width: 100%;
+  margin-top: 81px;
 }
 
 /*********CATALOGO*********/
