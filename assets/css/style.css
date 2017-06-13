@@ -1,6 +1,38 @@
 .carousel{
 	width: 100%;
 }
+.img-product{
+	width: 50%;
+}
+.img-modal{
+	width: 70%
+}
+
+/* CONTACTO */
+
+.contacto{
+	background-image: url(../img/fondo-contacto-01.png);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-center h2{
+    padding-top: 53px;
+    color: white;
+    font-weight: 700;
+    font-size: 46px;
+}
+.formulario{
+	margin-top: -20px;
+	margin-bottom: 61px;
+}
+
+.inputs{
+    margin-top: 130px;
+}
+.botoncito{
+	    margin-bottom: 225px;
+}
 /**validacion**/
 .input-box {
   position: relative;
@@ -33,36 +65,4 @@
   color: whitesmoke;
   background-color: rgba(51,51,51,0.8);
   border: 2px solid rgba(51,51,51,0.8);
-}
-.img-product{
-	width: 50%;
-}
-.img-modal{
-	width: 70%
-}
-
-/* CONTACTO */
-
-.contacto{
-	background-image: url(../img/fondo-contacto-01.png);
-	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.text-center h2{
-    padding-top: 53px;
-    color: white;
-    font-weight: 700;
-    font-size: 46px;
-}
-.formulario{
-	margin-top: -20px;
-	margin-bottom: 61px;
-}
-
-.inputs{
-    margin-top: 130px;
-}
-.botoncito{
-	    margin-bottom: 225px;
 }
