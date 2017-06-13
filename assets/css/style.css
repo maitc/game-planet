@@ -1,6 +1,14 @@
 .carousel{
 	width: 100%;
 }
+
+
+/* CATALOGO */
+
+.catalogo{
+	background-color: #2B7C78;
+}
+
 .img-product{
 	width: 50%;
 }
@@ -33,6 +41,7 @@
 .botoncito{
 	    margin-bottom: 225px;
 }
+
 /**validacion**/
 .input-box {
   position: relative;
