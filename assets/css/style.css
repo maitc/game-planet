@@ -76,6 +76,9 @@ padding-top: : 8px;
   padding-right:0;
   border-radius:50px;
 }
+.carrusel-border{
+  padding:0;
+}
 
 
 /*fin navbar*/
